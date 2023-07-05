@@ -1,0 +1,36 @@
+.navBox{
+  background-color: rgb(11, 10, 13);
+  display: flex;
+  justify-content: center;
+  height: 64px;
+}
+.navigator{
+  width: 600px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.navigator button{
+  height: 100%;
+  cursor: pointer;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(11, 10, 13);
+  border: none;
+  
+}
+
+.navigator button:hover{ 
+  background-color: lightgreen;
+  color: black;
+  
+}
+
+.navigator button:active{ 
+  opacity: 0.5;
+  
+}
